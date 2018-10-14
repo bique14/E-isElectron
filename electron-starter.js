@@ -13,7 +13,13 @@ let mainWindow;
 
 function createWindow() {
     // Create the browser window.
-    mainWindow = new BrowserWindow({width: 800, height: 600});
+    mainWindow = new BrowserWindow({width: 1200, height: 1000});
+    // const fs = require('fs-extra')
+    // const path = require('path')
+    // const filePath = path.resolve(__dirname, './src/Components/code/test.json')
+    // const code = fs.readFileSync(filePath).toString()
+    // console.log(code)
+
 
     // and load the index.html of the app.
     mainWindow.loadURL('http://localhost:3000');
